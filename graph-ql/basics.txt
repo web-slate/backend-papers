@@ -1,0 +1,15 @@
+Prismic
+https://prismic.io/
+https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA
+graphql@2030
+
+
+GraphQL
+1. Query language and execution engine.
+2. Created at Facebook in 2012
+3. Creating ata models for client‐server applications.
+4. Its not a programming language capable of arbitrary computation.
+
+References:
+https://spec.graphql.org/June2018/#sec-Overview
+https://www.digitalocean.com/community/tutorials/graphql-graphql-sdl
