@@ -1,7 +1,7 @@
 ### Java Basics
 <details>
   <summary>What is JDK?</summary>
- Java development kit used for developing business logics, web services etc... which intern will have inbuilt toolkit or compiler like creating Java schema from XML file and much more. JDK comes with JRE.
+ Java development kit used for developing business logics, web services etc... which in turn will have inbuilt toolkit or compiler like creating Java schema from XML file and much more. JDK comes with JRE.
 </details> 
 <details>
   <summary>What is JRE?</summary>
@@ -10,9 +10,14 @@
 <details>
   <summary>What is JVM?</summary>
   Java Virtual Machine which act as a special VM for running Java application and it’s OS independent can run on any platform “code once and run everywhere “ JVM has options to set heap memory. Can be visualised using tools. Multiple Java application cannot share one JVM.
+
+  JVM options: https://gist.github.com/jpukg/43bfba614122fe781e33e9086f6aebb9
+
 </details>
 <details>
-  <summary>JDK,JRE & JVM Visually</summary>
+  <summary>JDK,JRE & JVM </summary>
+
+    List of JDK Commands: https://docs.oracle.com/javase/8/docs/technotes/tools/unix/intro.html
 
    ![JDK,JRE & JVM](https://s3.shunyafoundation.com/s3/1578452c3f66d8fd0d04d5d195328ae1359d8caa/jdk-jvm.png)
 
@@ -70,5 +75,16 @@ oracle Java, open jdk, IBM jdk which will have different garbage collector algor
 
   ![Java Classloader](https://dev.vividbreeze.com/wp-content/uploads/2018/05/classLoaderHierarchie.jpg)
 
+</details>
+<details>
+  <summary>What is JavaDoc?</summary> 
+  The JavaDoc will be used for creating documentation out of the java program. It also contains set of annotations like @deprecated for deprecation.
+</details>
+<details>
+  <summary>Javac classpath</summary> 
+  Specifies the path javac uses to look up classes needed to run javac or being referenced by other classes you are compiling. Overrides the default or the CLASSPATH environment variable if it is set. Directories are separated by colons. It is often useful for the directory containing the source files to be on the class path. You should always include the system classes at the end of the path. For example:
+  ```
+  javac -classpath .:/home/avh/classes:/usr/local/java/classes
+  ```
 </details>
 
